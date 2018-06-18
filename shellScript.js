@@ -57,8 +57,7 @@ cron.schedule('*/10 * * * * *', function(){
 							}
 						})
 					}else{
-						console.log("file not found");
-						process.exit(2);
+						console.log("file not found: ==> ", fileName);
 					}
 				})
 			})
