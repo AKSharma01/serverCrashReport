@@ -1,0 +1,28 @@
+{
+  "name": "servercrashreport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "shellScript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aakashsharma9/serverCrashReport.git"
+  },
+  "author": "akash@heady.io",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aakashsharma9/serverCrashReport/issues"
+  },
+  "homepage": "https://github.com/Aakashsharma9/serverCrashReport#readme",
+  "dependencies": {
+    "aws-sdk": "^2.259.1",
+    "import": "0.0.6",
+    "mailcomposer": "^4.0.2",
+    "node-cron": "^1.2.1",
+    "pm2": "^2.10.4",
+    "shelljs": "^0.8.2",
+    "slack-node": "^0.1.8"
+  }
+}
